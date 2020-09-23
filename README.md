@@ -2,6 +2,27 @@
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/). 
 
+### Updating Documentation
+Add/update markdown (`.md`) files in the `docs` folder. Be sure to add:
+
+```markdown
+---
+id: <Page ID>
+title: <Page Title>
+---
+```
+
+Update `sidebars.js` to include the new `id`:
+
+```js
+module.exports = {
+  sidebar: {
+    General: ['overview', 'devdocs', 'your-new-id'], // General header with two pages w/ id overview and devdocs
+  },
+};
+
+```
+
 ### Installation
 
 ```
