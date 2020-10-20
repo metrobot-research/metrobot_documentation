@@ -75,7 +75,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Built with Docusaurus.`,
+      copyright: `Built with Docusaurus. Built by the Metrobot Team`,
     },
   },
   presets: [

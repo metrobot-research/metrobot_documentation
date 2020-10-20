@@ -1,6 +1,8 @@
 # metrobot_documentation
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/). 
+[![Generic badge](static/img/powered-by-vercel.svg)](https://vercel.com?utm_source=metrobot-research&utm_campaign=oss)
+
+Documentation for the Metrobot project. This website is built using [Docusaurus 2](https://v2.docusaurus.io/). 
 
 ### Updating Documentation
 Add/update markdown (`.md`) files in the `docs` folder. Be sure to add:
